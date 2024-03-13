@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jan  9 14:50:24 2024
+# Process ID: 7128
+# Current directory: D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.runs/impl_1
+# Command line: vivado.exe -log test_env.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source test_env.tcl -notrace
+# Log file: D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.runs/impl_1/test_env.vdi
+# Journal file: D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.runs/impl_1\vivado.jou
+# Running On: LAPTOP-40L263D6, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 17005 MB
+#-----------------------------------------------------------
+source test_env.tcl -notrace

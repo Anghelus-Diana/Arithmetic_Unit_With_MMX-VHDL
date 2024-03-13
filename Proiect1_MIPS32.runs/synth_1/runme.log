@@ -1,0 +1,402 @@
+
+*** Running vivado
+    with args -log test_env.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_env.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source test_env.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/utils_1/imports/synth_1/test_env.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/utils_1/imports/synth_1/test_env.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top test_env -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15516
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_env' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:15]
+INFO: [Synth 8-3491] module 'MPG' declared at 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/MPG.vhd:5' bound to instance 'monop1' of component 'MPG' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'MPG' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/MPG.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MPG' (1#1) [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/MPG.vhd:11]
+INFO: [Synth 8-3491] module 'MPG' declared at 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/MPG.vhd:5' bound to instance 'monop2' of component 'MPG' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:101]
+INFO: [Synth 8-3491] module 'InstructionFetch' declared at 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionFetch.vhd:7' bound to instance 'instrFetch' of component 'InstructionFetch' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'InstructionFetch' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionFetch.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'InstructionFetch' (2#1) [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionFetch.vhd:18]
+INFO: [Synth 8-3491] module 'SSD' declared at 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/SSD.vhd:27' bound to instance 'SevenSegment' of component 'SSD' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'SSD' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/SSD.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'SSD' (3#1) [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/SSD.vhd:34]
+INFO: [Synth 8-3491] module 'MainControl' declared at 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/MainControl.vhd:5' bound to instance 'MainC' of component 'MainControl' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'MainControl' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/MainControl.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'MainControl' (4#1) [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/MainControl.vhd:15]
+INFO: [Synth 8-3491] module 'InstrDecode' declared at 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstrDecode.vhd:7' bound to instance 'IDmap' of component 'InstrDecode' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'InstrDecode' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstrDecode.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'InstrDecode' (5#1) [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstrDecode.vhd:22]
+INFO: [Synth 8-3491] module 'InstructionExecute' declared at 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:7' bound to instance 'EX' of component 'InstructionExecute' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'InstructionExecute' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'InstructionExecute' (6#1) [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'test_env' (7#1) [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/test_env.vhd:15]
+WARNING: [Synth 8-7129] Port Ext_Imm[63] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[62] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[61] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[60] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[59] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[58] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[57] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[56] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[55] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[54] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[53] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[52] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[51] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[50] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[49] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[48] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[47] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[46] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[45] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[44] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[43] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[42] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[41] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[40] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[39] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[38] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[37] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[36] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[35] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[34] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[33] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[32] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALUSrc in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Branch in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[25] in module InstrDecode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[24] in module InstrDecode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[25] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[24] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[23] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[22] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[21] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[20] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[19] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[18] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[17] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[16] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[15] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[14] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[13] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[12] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[11] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[10] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[9] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[8] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[7] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[6] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[5] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[4] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[3] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[2] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[1] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr[0] in module MainControl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[15] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[4] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[3] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[2] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module test_env is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module test_env is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1250.520 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Public/Desktop/vhdl_sources/basys3.xdc]
+Finished Parsing XDC File [D:/Public/Desktop/vhdl_sources/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Public/Desktop/vhdl_sources/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/test_env_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/test_env_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1250.520 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1250.520 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'c_16_3_reg' and it is trimmed from '17' to '16' bits. [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:79]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_0_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:76]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_1_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:77]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_2_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:78]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_3_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:79]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_s3_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:91]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_s2_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:90]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_s1_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:89]
+WARNING: [Synth 8-327] inferring latch for variable 'c_16_s0_reg' [D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.srcs/sources_1/new/InstructionExecute.vhd:88]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   17 Bit       Adders := 1     
+	   4 Input   17 Bit       Adders := 2     
+	   4 Input   16 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 6     
++---RAMs : 
+	              512 Bit	(8 X 64 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 1     
+	  33 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   6 Input   17 Bit        Muxes := 7     
+	   6 Input   16 Bit        Muxes := 6     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design test_env has port led[2] driven by constant 0
+WARNING: [Synth 8-7129] Port Ext_Imm[63] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[62] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[61] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[60] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[59] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[58] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[57] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[56] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[55] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[54] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[53] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[52] in module InstructionExecute is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Ext_Imm[51] in module InstructionExecute is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+--------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------+-----------+----------------------+--------------+
+|test_env    | IDmap/reg_file_reg | Implied   | 8 x 64               | RAM32M x 22  | 
++------------+--------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+--------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------+-----------+----------------------+--------------+
+|test_env    | IDmap/reg_file_reg | Implied   | 8 x 64               | RAM32M x 22  | 
++------------+--------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |    38|
+|3     |LUT1   |     3|
+|4     |LUT2   |     7|
+|5     |LUT3   |    66|
+|6     |LUT4   |   139|
+|7     |LUT5   |   111|
+|8     |LUT6   |   215|
+|9     |RAM32M |    22|
+|10    |FDRE   |    61|
+|11    |LD     |   131|
+|12    |IBUF   |     7|
+|13    |OBUF   |    17|
+|14    |OBUFT  |    10|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1250.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 76 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1250.520 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1250.520 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1256.051 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 191 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 22 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1261.676 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 153 instances were transformed.
+  LD => LDCE: 131 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 22 instances
+
+Synth Design complete, checksum: 18dba42c
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1261.676 ; gain = 11.156
+INFO: [Common 17-1381] The checkpoint 'D:/Public/Desktop/Facultate/ANUL3sem1/SSC/Proiect_SSC_MIPS32/Proiect1_MIPS32/Proiect1_MIPS32.runs/synth_1/test_env.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file test_env_utilization_synth.rpt -pb test_env_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  9 14:48:52 2024...
